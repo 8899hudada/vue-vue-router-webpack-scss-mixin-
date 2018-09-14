@@ -8,14 +8,6 @@
 
 请使用手机扫码体验，微信或者浏览器的扫一扫都可以的。
 
-### 安装
-
-```shell
-git clone https://github.com/cucygh/JDFinance.git
-cd JDFinance
-npm install
-```
-
 ### 切换分支
 
 项目里使用git分支来管理不同章节的代码，根据自己的情况选择不同的分支进行开发。

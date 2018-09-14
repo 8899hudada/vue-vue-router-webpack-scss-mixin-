@@ -25,7 +25,7 @@ module.exports = env => {
   }
   return {
     entry: {
-      app: './app/js/main.js'
+      app: ['./app/js/viewport.js', './app/js/main.js']
     },
     devServer: {
       contentBase: './dist',
@@ -64,9 +64,7 @@ module.exports = env => {
       ]
     },
     resolve: {
-      extensions: [
-        '.js', '.vue', '.json'
-      ],
+      extensions: ['.js', '.vue', '.json'],
       alias: {
         'vue$': 'vue/dist/vue.esm.js'
       }
